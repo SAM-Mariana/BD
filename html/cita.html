@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/cita.css">
+</head>
+<body>
+    <form class="form" action="../php/cita.php" method="POST">
+        
+        <!--TITULO------------------------>
+        <h1 class="titulo"> AGENTADAR CITA </h1>
+        
+        <!--CAJAS-DE-ENTRADA-DE-DATOS------------------------------------------------>
+        <input class="cajas" type="text" name="NOMBRE" placeholder="NOMBRE" >
+        <input class="cajas" type="text" name="APELLIDO" placeholder="APELLIDO" >
+        <input class="cajas" type="text" name="TELEFONO" placeholder="TELEFONO" >
+        <input class="cajas" type="text" name="COLONIA" placeholder="COLONIA" >
+        <input class="cajas" type="text" name="DIRECCION" placeholder="DIRECCION" >
+
+            <select name="categoria" class="cajas" id="categoria" required >
+
+              <option value="">Seleccionar...</option>
+
+              <option value="desallunos">SERVICIO 1</option>
+
+              <option value="restaurantes">SERVICIO 2</option>
+
+              <option value="puestos ambulantes">SERVICIO 3</option>
+
+              <option value="puestos ambulantes">SERVICIO 4</option>
+
+            </select>
+
+        <input class="cajas" type="text" name="CORREO" placeholder="CORREO" >
+        <input class="cajas" type="date" name="CITA" placeholder="FECHA DE LA CITA" >
+        <input class="cajas" type="date" name="HOY" placeholder="FECHA DE HOY" >
+        <input class="cajas" type="text" name="QUIEN" placeholder="QUIEN TE ATENDIO" >
+        s
+        
+        <!--BOTON-DE-INICIO-SESION-------------------------->
+        <a href="exito.html"><input type="submit" class="btn" value="AGENTADAR CITA"></a>
+        
+        <!--OLVIDE-LA-CONTRASEÑA----------------------------------------------------------->
+         <p class="tengo-cuenta"><a href="index.html" class="tengo-cuenta">REGRESAR A LA PAGUINA PRINCIPAL </a></p>
+    </form>
+</body>
+</html>

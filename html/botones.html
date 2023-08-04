@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/botones.css">
+</head>
+<body>
+   <div class="container">
+   
+    <nav>
+      <ul>
+        <a href="../index.html"><li>PRINCIPAL</li></a>
+        <a href="inicio_sesion.html"><li>INICIA SESION</li></a>
+        <a href="registro.html"> <li>REGISTRO</li></a>
+        <a href="productos.html"> <li>PRODUCTOS</li></a>
+        <a href="categoria.html"> <li>SELECCIONA PIZZA</li></a>
+        <a href="direccion.html"> <li>DIRECCION DE ENTREGA</li></a>
+      </ul>
+    </nav>
+    
+  </div>
+    <center>
+    <form method="POST" action="../php/tablausuarios.php">
+        <label class="letras"> BOTON PARA VISUALIZAR LOS USURARIOS REGISTRADOS </label><br><br>
+        <input type="submit" name="tablausuarios" value="usuarios"><br><br>
+    </form>
+    
+    <form method="POST" action="../php/tablaproductos.php">
+        <label class="letras"> BOTON PARA VISUALIZAR LOS PRODUCTOS REGISTRADOS </label><br><br>
+        <input type="submit" name="tablaproductos" value="productos"><br><br>
+    </form>
+    
+    <form method="POST" action="../php/tablacategorias.php">
+        <label class="letras"> BOTON PARA VISUALIZAR LAS ELECIONES DE PIZZAS </label><br><br>
+        <input type="submit" name="tablacategorias" value="categorias"><br><br>
+    </form>
+   
+    <form method="POST" action="../php/tabladirecciones.php">
+        <label class="letras"> BOTON PARA VISUALIZAR LAS DIRECCUINES DE LOS USUARIOS </label><br><br>
+        <input type="submit" name="tabladirecciones" value="direcciones"><br><br>
+    </form>
+    
+    <form method="POST" action="../php/tablaactividad.php">
+        <label class="letras"> BOTON PARA VISUALIZAR LAS ACTIVIDADES DE LA BASE DE DATOS </label><br><br>
+        <input type="submit" name="tablaactividad" value="actividad"><br><br>
+    </form>
+    <form method="POST" action="../php/tablacita.php">
+        <label class="letras"> BOTON PARA VISUALIZAR LAS CITAS DE LA BASE DE DATOS </label><br><br>
+        <input type="submit" name="tablaactividad" value="actividad"><br><br>
+    </form>
+</center>
+</body>
+</html>
