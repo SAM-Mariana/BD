@@ -4,8 +4,6 @@ include_once 'encriptartext.php';
 include_once 'logger.php';
 
 $conn = uescribir();
-
-
 if($conn -> connect_error){
 
     echo"ERROR DE LA CONEXION";
